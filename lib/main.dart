@@ -21,7 +21,7 @@ void main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(TvShowAdapter());
 
-  final favoriteService = FavoriteService();
+  final favoriteService = Get.put(FavoriteService(), permanent: true);
   await favoriteService.init();
 
   final authService = AuthService();

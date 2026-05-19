@@ -108,10 +108,7 @@ class ProfilePage extends StatelessWidget {
                   ),
                   const SizedBox(height: 6),
                   const Text(
-                    'Praktikum Mobile sangat seru dan menantang! Banyak hal baru '
-                    'yang dipelajari mulai dari Flutter, state management dengan GetX, '
-                    'hingga penyimpanan lokal dengan Hive. Walaupun kadang bikin '
-                    'pusing, tapi hasilnya memuaskan 😄',
+                    'Sangat amat berkesan!',
                     style: TextStyle(
                       color: Color(0xFFAAAAAA),
                       fontSize: 13,
@@ -129,9 +126,7 @@ class ProfilePage extends StatelessWidget {
                   ),
                   const SizedBox(height: 6),
                   const Text(
-                    'Terima kasih banyak untuk para asisten dan dosen praktikum! '
-                    'Semoga ilmu yang diajarkan bermanfaat dan semua sukses selalu. '
-                    'Semangat terus untuk praktikum ke depannya! 🚀',
+                    'Selain masalah perkuliahan yang sangat gila, prabowo dan kroninya lebih gila. Bimillah, turunnya rezim Prabowo Gibran',
                     style: TextStyle(
                       color: Color(0xFFAAAAAA),
                       fontSize: 13,
